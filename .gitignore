@@ -1,0 +1,5 @@
+wazuh-install-files.tar
+*.log
+ossec.conf
+*.key
+*.pem
