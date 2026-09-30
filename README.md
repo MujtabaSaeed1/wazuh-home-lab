@@ -44,15 +44,15 @@ Configured Wazuh's `firewall-drop` active response to trigger on rule `5712` (ss
 
 ## Screenshots
 
-| #   | File                          | What it shows                                                                                     |
-| --- | ----------------------------- | ------------------------------------------------------------------------------------------------- |
-| 1   | `01-dashboard-overview.png`   | Agent connected, severity breakdown                                                               |
-| 2   | `02-endpoints-active.png`     | WindowsHost agent, active status, version, IP                                                     |
-| 3   | `03-fim-events.png`           | File integrity monitoring: add/modify/delete events with rule IDs 550/553/554                     |
-| 4   | `04-attack-terminal.png`      | SSH brute-force attempt from PowerShell, ends in `Connection timed out` once blocked              |
-| 5   | `05-threat-hunting-mitre.png` | Threat Hunting dashboard: 44 alerts, MITRE ATT&CK breakdown (Password Guessing, SSH, Brute Force) |
-| 6   | `06-dashboard-blocked.png`    | My own dashboard access timing out, proof the block was IP-wide, not just SSH                     |
-| 7   | `07-rule-5712-events.png`     | Four distinct brute-force detections (rule 5712, level 10) across separate attack runs            |
+| #   | File                                  | What it shows                                                                                     |
+| --- | -------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| 1   | `assets/01-dashboard-overview.png`   | Agent connected, severity breakdown                                                               |
+| 2   | `assets/02-endpoints-active.png`     | WindowsHost agent, active status, version, IP                                                     |
+| 3   | `assets/03-fim-events.png`           | File integrity monitoring: add/modify/delete events with rule IDs 550/553/554                     |
+| 4   | `assets/04-attack-terminal.png`      | SSH brute-force attempt from PowerShell, ends in `Connection timed out` once blocked              |
+| 5   | `assets/05-threat-hunting-mitre.png` | Threat Hunting dashboard: 44 alerts, MITRE ATT&CK breakdown (Password Guessing, SSH, Brute Force) |
+| 6   | `assets/06-dashboard-blocked.png`    | My own dashboard access timing out, proof the block was IP-wide, not just SSH                     |
+| 7   | `assets/07-rule-5712-events.png`     | Four distinct brute-force detections (rule 5712, level 10) across separate attack runs            |
 
 ## Skills Applied
 
